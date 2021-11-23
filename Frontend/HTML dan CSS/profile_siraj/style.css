@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: beige;
+}
+.full-card {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: beige;
+    padding-top: 3em;
+    margin: auto;
+    text-align: center;
+}
+.card-content {
+    margin: auto;
+    margin-inline: 2em;
+    align-items: center;
+    text-align: center;
+    border-radius: 20%;
+    background-color: white;
+    padding-top: 5em;
+    max-width: 400px;
+    max-height: 600px;
+    padding-bottom: 4em;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.103);
+    display: inline-block;
+}
+
+#profile-photo {
+    margin: auto;
+    width: 50%;
+    border-radius: 450px;
+    border: 12px solid blanchedalmond;
+}
+
+.profile-info {
+    margin-top: 30px;
+    font-size:  1.3em;
+}
+
+.profile-account {
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.profile-account a {
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+}
+
+.profile-account a img {
+    width: inherit;
+}
+
+.profile-skill {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 3em;
+}
+
+.profile-skill-123 {
+    font-size: 2em;
+    position: relative;
+    bottom: 0.6em;
+    background-color;
+    border-radius: 1em;
+    padding: 0.4em 1em;
+    display: inline-block;
+    border: 2px solid blanchedalmond ;
+    background-color: aliceblue;
+}
