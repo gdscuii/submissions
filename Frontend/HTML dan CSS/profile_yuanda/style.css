@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 0 5em;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 5em;
+  min-height: 100vh;
+  background-color: rgb(211, 244, 255);
+}
+
+.profile-wrapper {
+  margin: auto;
+  background-color: white;
+  max-width: 400px;
+  align-items: center;
+  padding: 2em 8em;
+  border-radius: 1em;
+  box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.103);
+}
+
+.profile-img {
+  margin: auto;
+  margin-bottom: 1em;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  overflow: hidden;
+}
+
+.profile-info {
+  display: flex;
+  margin: auto;
+
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.profile-info-name {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+.profile-info-jurusan {
+  font-weight: 300;
+  color: rgb(148, 148, 148);
+}
+
+.profile-social {
+  margin: auto;
+  width: max-content;
+  margin-bottom: 1em;
+}
+
+.profile-social a {
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+}
+.profile-social a img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-skill {
+  margin: auto;
+  text-align: center;
+}
+
+.profile-skill-pill {
+  display: inline-block;
+  padding: 0.4em 1em;
+  border-radius: 1em;
+  background-color: rgba(189, 0, 180, 0.212);
+  border: 2px solid rgb(189, 0, 179);
+}
